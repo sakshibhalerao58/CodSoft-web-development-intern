@@ -1,0 +1,456 @@
+<html>
+    <title>My Portfolio</title>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/8e9368aa1e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="myportfolio.css">
+
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand nav-border" href="#">
+                <img src="https://logos.textgiraffe.com/logos/logo-name/Sau-designstyle-boots-m.png" class="main-logo" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link active" href="#homeSection">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" id="nav-item1" href="#aboutMeSection">About me</a>
+                    <a class="nav-link" id="nav-item2" href="#projectSection">Projects</a>
+                    <a class="nav-link" id="nav-item3" href="#recentBlogSection">Recent Blogs</a>
+                    <a class="nav-link" id="nav-item4" href="#testimonialSection">Testimonial</a>
+                </div>
+            </div>
+        </nav>
+        <div class="bg-section-home" id="homeSection">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-8 text-center d-block d-md-none">
+                        <img src="https://tse2.mm.bing.net/th?id=OIP.54jIioibu-tN4Vgu5p6xPwAAAA&pid=Api&P=0&h=180" class="banner-img mt-10" />
+                    </div>
+                    <div class="col-12 col-4 text-center d-block d-md-none d-flex flex-column justify-content-center">
+                        <h1 class="main-head-home mt-3">Hey, I am <span class="span">Sakshi</span></h1>
+                        <p class="main-para-home mt-3">I am a Full Stack Developer Developer.</p>
+                        
+                            <!-- Button trigger modal -->
+                            <button type="button" class="button-home" data-toggle="modal" data-target="#exampleModal">
+                                Contact me
+                            </button>
+                            
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 class="modal-title modal-title2" id="exampleModalLabel">Contact me</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <scan class="info-scan">Phone No. : </scan> 9876543210<br/>
+                                        <scan class="info-scan">Email. : </scan> sakshibhalerao78@gmail.com<br/>
+                                        
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary modal-button" data-dismiss="modal">Close</button>
+                                    
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </button>
+                    </div>
+    
+                    <div class="d-flex flex-row justify-content-center">
+                        <div class="col-8 col-4  d-none d-md-block mt-5 ml-5">
+    
+                            <h1 class="main-head-home">Hey, I am <span class="span">Sakshi</span></h1>
+                            <p class="main-para-home mt-3">I am a Frontend Developer.</p>
+                            
+                                <!-- Button trigger modal -->
+                                <button type="button" class="button-home" data-toggle="modal" data-target="#exampleModal2">
+                                    Contact me
+                                </button>
+                                
+                                
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                        <h5 class="modal-title  modal-title2" id="exampleModalLabel">Contact me</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <scan class="info-scan">Phone No. : </scan> 9876543210<br/>
+                                            <scan class="info-scan">Email. : </scan> sakshibhalerao78@gmail.com<br/>
+                                            
+                                        </div>
+                                        <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary modal-button" data-dismiss="modal">Close</button>
+                                        
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </button>
+    
+                        </div>
+                        <div class="col-8  col-md-4 order-md-2 d-md-block d-none">
+                            <img src="https://tse2.mm.bing.net/th?id=OIP.54jIioibu-tN4Vgu5p6xPwAAAA&pid=Api&P=0&h=180" class="banner-img mt-10 ml-5" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="bg-section pt-5 pb-5 pr-3 pl-3" id="aboutMeSection">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 pl-3 d-block d-md-none">
+                        <div class="info">
+                            <h1 class="Facts-head">Facts</h1>
+                            <h1 class="about-head">About me</h1>
+                        </div>
+                    </div>
+                    <div class="col-12 d-block d-md-none">
+                        <img src="https://i.ibb.co/tC9g68V/sakshiimg-portfolio.jpg" class="main-image w-100 pt-3" />
+                    </div>
+                    <div class="col-12 pt-3 d-block d-md-none">
+                        <p class="main-para">My name is Sakshi Bhalerao, and I am currently pursuing my bachelor's degree in Matoshri college of Engineering and research center.Nashik.<br /><br />
+                            I am learning the Full stack development course from NxtWave.
+                            I enjoyed these course with full of mind and confidence.<br /><br />
+                            I am a dedicated person with a family of four. I like to play badminton, cooking, and mostly develop a wonderful websites.
+                        </p>
+                    </div>
+                    
+                        <div class="col-12 col-md-6 d-none  d-md-block">
+                            <img src="https://i.ibb.co/tC9g68V/sakshiimg-portfolio.jpg" class="main-image w-100 pt-3" />
+                        </div>
+    
+                        <div class="col-12 col-md-6 d-none d-md-block mt-5">
+    
+                            <h1 class="Facts-head mt-3 ml-5">Facts</h1>
+                            <h1 class="about-head mt-3 ml-5">About me</h1>
+                                    <hr class="hr-line1">
+    
+    
+                            <p class="main-para mt-5 ml-5 d-none d-md-block">My name is Sakshi Bhalerao, and I am currently pursuing my bachelor's degree in Matoshri college of Engineering and research center ,Nashik.<br /><br />
+                                I am learning the Full stack development course from NxtWave.
+                                 I enjoyed these course with full of mind and confidence.<br /><br />
+                                I am a dedicated person with a family of four. I like to play badminton, cooking, and mostly develop a wonderful websites.
+                            </p>
+                        </div>
+    
+                    
+                </div>
+            </div>
+        </div>
+        <div class="bg-section2 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 pt-5">
+                        <h1 class="Facts-head">Skills</h1>
+                    </div>
+                    <div class="col-12 d-block d-md-none">
+                        <div class="d-flex flex-row justify-content-center">
+                            <div class="card w-50 mt-3 m-15 mr-3 shadow  pt-3 text-center">
+                                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-html-img.png" class="lang-img w-50 mr-4 ml-4 pl-3 text-center" />
+                                <h1 class="lang-head pt-3 text-center">HTML</h1>
+                            </div>
+                            <div class="card w-50 mt-3 pt-3 shadow text-center">
+                                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-css-img.png" class="lang-img w-50 mr-4 ml-4 pl-3 text-center" />
+                                <h1 class="lang-head pt-3 text-center">CSS</h1>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row justify-content-center">
+                            <div class="card w-50 mt-3 m-15 mr-3 shadow pt-3 text-center">
+                                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-bootstrap-img.png" class="lang-img w-50 mr-4 ml-4 pl-3 text-center" />
+                                <h1 class="lang-head pt-3 text-center">Bootstrap</h1>
+                            </div>
+                            <div class="card w-50 mt-3 pt-3 shadow text-center">
+                                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-js-img.png" class="lang-img w-50 mr-4 ml-4 pl-3 text-center" />
+                                <h1 class="lang-head pt-3 text-center">JS</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 d-none d-md-block">
+                        <div class="d-flex flex-row justify-content-center">
+                            <div class="card w-50 mt-3 m-15 mr-3  pt-3 text-center">
+                                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-html-img.png" class="lang-img w-50 mr-4 ml-4 pl-3 text-center" />
+                                <h1 class="lang-head pt-3 text-center">HTML</h1>
+                            </div>
+                            <div class="card w-50 mt-3 pt-3 text-center">
+                                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-css-img.png" class="lang-img w-50 mr-4 ml-4 pl-3 text-center" />
+                                <h1 class="lang-head pt-3 text-center">CSS</h1>
+                            </div>
+    
+    
+                            <div class="card w-50 mt-3 m-15 mr-3 ml-3  pt-3 text-center">
+                                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-bootstrap-img.png" class="lang-img w-50 mr-4 ml-4 pl-3 text-center" />
+                                <h1 class="lang-head pt-3 text-center">Bootstrap</h1>
+                            </div>
+                            <div class="card w-50 mt-3 pt-3 text-center">
+                                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-js-img.png" class="lang-img w-50 mr-4 ml-4 pl-3 text-center" />
+                                <h1 class="lang-head pt-3 text-center">JS</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-section pt-5 pb-5" id="projectSection">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="main-head-project pb-3">Portfolio</h1>
+                        <h1 class="projects-head">Projects I have done</h1>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6 col-xl-6">
+                        <div class="card-project mt-3 shadow">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-project-1-img.png" class="card-image w-100" />
+                            <h1 class="web-design pt-3 pl-3">Web design</h1>
+                            <h1 class="project-name  pl-3">Royal Grand Hotel</h1>
+                            <p class="card-descr-project pl-3">Royal Grand Hotel is a Simple Static Website. We can use this layout for building the other websites...</p>
+                            <a href="">
+                                <p class="read pt-3 pl-3">Read More
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
+                                    </svg>
+                                </p>
+                            </a>
+    
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6 col-xl-6">
+                        <div class="card-project mt-3 shadow">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-project-2-img.png" class="card-image w-100" />
+                            <h1 class="web-design pt-3 pl-3">Web design</h1>
+                            <h1 class="project-name  pl-3">Happy Meals</h1>
+                            <p class="card-descr-project pl-3">Happy Meals is the best-in class food ordering page today. With interactive UI/UX and simple call to actions...</p>
+                            <a href="">
+                                <p class="read pt-3 pl-3">Read More
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
+                                    </svg>
+                                </p>
+                            </a>
+    
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6 col-xl-6">
+                        <div class="card-project mt-3 shadow">
+                            <img src="https://i.ibb.co/RvbKJfK/Screenshot-212.png" class="card-image w-100" />
+                            <h1 class="web-design pt-3 pl-3">Web design</h1>
+                            <h1 class="project-name  pl-3">Amazon Clone</h1>
+                            <p class="card-descr-project  pl-3">Amazon Clone is one of the best projects in my life. It's showing my skills related to HTML & CSS.</p>
+                            <a href="">
+                                <p class="read pt-3 pl-3">Read More
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
+                                    </svg>
+                                </p>
+                            </a>
+    
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6 col-xl-6">
+                        <div class="card-project mt-3 shadow">
+                            <img src="https://i.ibb.co/MRRvNxN/Screenshot-214.png" class="card-image w-100" />
+                            <h1 class="web-design pt-3 pl-3">Web design</h1>
+                            <h1 class="project-name  pl-3">Food Munch Restaurant</h1>
+                            <p class="card-descr-project pl-3">Food Munch Restaurant. It is a Responsive Website using HTML, CSS & Bootstrap concepts.</p>
+                            <a href="">
+                                <p class="read pt-3 pl-3">Read More
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
+                                    </svg>
+                                </p>
+                            </a>
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-section-service pb-5" id="recentBlogSection">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="yellow-head mt-5">Services</h1>
+                        <h1 class="main-heading">
+                            What I do
+                        </h1>
+    
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-3">
+                        <div class="card-black shadow mt-3 p-3">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-web-design-img.png" class="language-img" />
+                            <h1 class="card-title-service shadow mt-3">Static Websites</h1>
+                            <p class="card-description-service">A static Website containes Web pages with fixed content.Each page is developed using HTML and CSS and displays the same information to every visitor.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-3">
+                        <div class="card-black shadow mt-3 p-3">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-web-development-img.png" class="language-img" />
+                            <h1 class="card-title-service shadow mt-3">Responsive Web Design</h1>
+                            <p class="card-description-service">Responsive Web design is the approach that suggests that design and development should respond to the user's behaviour and environment based on screen size, platform and orientation.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 mt-3 col-lg-4">
+                        <div class="card-black shadow p-3">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-customize-img.png" class="language-img" />
+                            <h1 class="card-title-service shadow mt-3">Customisable Layouts</h1>
+                            <p class="card-description-service">Customisable sites are templates with set layouts.You may be able to change photos and colors, but your site will look similar to many other sites due to the templates. The same goes for.......</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-section-img w-100 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4 text-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="white" class="bi bi-hand-thumbs-up mt-5 " viewBox="0 0 16 16">
+                            <path d="M8.864.046C7.908-.193 7.02.53 6.956 1.466c-.072 1.051-.23 2.016-.428 2.59-.125.36-.479 1.013-1.04 1.639-.557.623-1.282 1.178-2.131 1.41C2.685 7.288 2 7.87 2 8.72v4.001c0 .845.682 1.464 1.448 1.545 1.07.114 1.564.415 2.068.723l.048.03c.272.165.578.348.97.484.397.136.861.217 1.466.217h3.5c.937 0 1.599-.477 1.934-1.064a1.86 1.86 0 0 0 .254-.912c0-.152-.023-.312-.077-.464.201-.263.38-.578.488-.901.11-.33.172-.762.004-1.149.069-.13.12-.269.159-.403.077-.27.113-.568.113-.857 0-.288-.036-.585-.113-.856a2 2 0 0 0-.138-.362 1.9 1.9 0 0 0 .234-1.734c-.206-.592-.682-1.1-1.2-1.272-.847-.282-1.803-.276-2.516-.211a10 10 0 0 0-.443.05 9.4 9.4 0 0 0-.062-4.509A1.38 1.38 0 0 0 9.125.111zM11.5 14.721H8c-.51 0-.863-.069-1.14-.164-.281-.097-.506-.228-.776-.393l-.04-.024c-.555-.339-1.198-.731-2.49-.868-.333-.036-.554-.29-.554-.55V8.72c0-.254.226-.543.62-.65 1.095-.3 1.977-.996 2.614-1.708.635-.71 1.064-1.475 1.238-1.978.243-.7.407-1.768.482-2.85.025-.362.36-.594.667-.518l.262.066c.16.04.258.143.288.255a8.34 8.34 0 0 1-.145 4.725.5.5 0 0 0 .595.644l.003-.001.014-.003.058-.014a9 9 0 0 1 1.036-.157c.663-.06 1.457-.054 2.11.164.175.058.45.3.57.65.107.308.087.67-.266 1.022l-.353.353.353.354c.043.043.105.141.154.315.048.167.075.37.075.581 0 .212-.027.414-.075.582-.05.174-.111.272-.154.315l-.353.353.353.354c.047.047.109.177.005.488a2.2 2.2 0 0 1-.505.805l-.353.353.353.354c.006.005.041.05.041.17a.9.9 0 0 1-.121.416c-.165.288-.503.56-1.066.56z" />
+                        </svg>
+                        <hr class="hr-line">
+                        <h1 class="head">10</h1>
+                        <p class="icon-descr">Projects Completed</p>
+                    </div>
+                    <div class="col-4 text-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="white" class="mt-5 bi bi-layout-text-sidebar-reverse" viewBox="0 0 16 16">
+                            <path d="M12.5 3a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1zm0 3a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1zm.5 3.5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 .5-.5m-.5 2.5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1z" />
+                            <path d="M16 2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2zM4 1v14H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zm1 0h9a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5z" />
+                        </svg>
+                        <hr class="hr-line">
+                        <h1 class="head">2,800</h1>
+                        <p class="icon-descr">Lines Of Code</p>
+                    </div>
+                    <div class="col-4 text-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="white" class="bi mt-5 bi-clock" viewBox="0 0 16 16">
+                            <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
+                        </svg>
+                        <hr class="hr-line">
+                        <h1 class="head">15</h1>
+                        <p class="icon-descr mb-3">Hours Worked</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-section-testi p-3 pb-5" id="testimonialSection">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-12 col-lg-12">
+                        <h1 class="Testimonials-head mt-5">Testimonials</h1>
+                        <h1 class="member-head">Our Members Says</h1>
+                    </div>
+                    <div class="col-12 col-md-7 mt-5 col-lg-7">
+                        <div class="text-center">
+                            <div id="carouselExampleControls" class="carousel slide " data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="carousel-bg text-center p-3">
+    
+                                            <img src="https://media.licdn.com/dms/image/v2/D5603AQE-Y6m4fLSS2Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1723524902800?e=1729123200&v=beta&t=N6dUTvy43RPftvOO8lSMjphoXZHfqbDGkTkJ4bpeBgo" class="testi-img d-block d-md-block w-100 text-center" alt="...">
+    
+                                            <p class="testi-p">Working/Studying with Sakshi is very excellent experience. She is very confident about her skills and passion. We both learned the web development course from NXTWAVE. It was really nice experience while Working together as a post of Web Developer. We have done all projects and tasks using the ideas of both. <br />
+                                                <br />
+                                                <span class="testi-span">- Nandini , Co developer of CocoPay Comapny</span>
+                                            </p>
+    
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item text-center">
+                                        <div class="carousel-bg  p-3">
+                                            <img src="https://media.licdn.com/dms/image/D5603AQFdt76Bz5_-8A/profile-displayphoto-shrink_800_800/0/1715706006283?e=1728518400&v=beta&t=qasQON-USYneRm8b0wueJA4bO4-yyDTZrzMLl55z6dM" class="testi-img d-block d-md-block w-100" alt="...">
+                                            <p class="testi-p">Working/Studying with Sakshi is a very excellent experience. She is very confident about her skills and passion. We both learned the web development course from NXTWAVE. It was really nice experience while Working together as a post of Web Developer.<br />
+                                                <br />
+                                                <span class="testi-span">- Trupti , Co developer of CocoPay Comapny</span>
+                                            </p>
+    
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item text-center">
+                                        <div class="carousel-bg p-3">
+                                            <img src="https://media.licdn.com/dms/image/D5603AQFue9hXDnYIeQ/profile-displayphoto-shrink_800_800/0/1720840065281?e=1728518400&v=beta&t=HY3a_MpPB0BQ-O2lCq_eSOesDMDLzQwuu7BcvZTDVDQ" class="testi-img d-block  d-md-block w-100" alt="...">
+                                            <p class="testi-p">Working/Studying with Sakshi is very excellent experience. She is very confident about her skills and passion. We both learned the web development course from NXTWAVE. She is an incredible talented developer.<br />
+                                                <br />
+                                                <span class="testi-span">- Sakshi Daund , Co developer of CocoPay Comapny</span>
+                                            </p>
+    
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mt-3 text-right">
+                                    <a href="#carouselExampleControls" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a href="#carouselExampleControls" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+        <div class="footer-bg pt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-3 d-flex flex-row">
+                        <div>
+                            <img src="https://i.ibb.co/h77TxWW/IMG-20230817-WA0004.jpg" class="footer-img" />
+                        </div>
+                        <div class="text-left ml-3 mr-5 mt-3">
+                            <h1 class="name-head">Sakshi</h1>
+                            <p class="footer-para">Full Stack Developer</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-2 col-lg-2 mt-3">
+                        <h1>Phone No.</h1>
+                        <div class="d-flex flex-row">
+                            <i class="fa-solid fa-phone footer-icon mt-3"></i>
+                            <p class="number mt-3">9876543210</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-4 mt-3">
+                        <h1>E-mail<h1>
+                                <div class="d-flex flex-row">
+                                    <i class="fa-solid fa-envelope footer-icon mt-3"></i>
+                                    <p class="number mt-3">sakshibhalerao78@gmail.com</p>
+                                </div>
+                    </div>
+                    <div class="col-12 col-md-3 col-lg-3 mt-3">
+                        <h1>Address</h1>
+                        <div class="d-flex flex-row">
+                            <i class="fa-solid fa-map-location-dot footer-icon mt-3"></i>
+                            <p class="number mt-3">flat 7, Vrundavan heights, mahalaxmi nagar, Nashik. </p>
+                        </div>
+                    </div>
+                    <hr class="hr-line">
+                    <div class="col-12">
+                        <p class="text-center copyright">
+                            <i class="fa-regular footer-icon fa-copyright"></i>
+                            2020 by Sakshi Bhalerao. Created with Bootstrap.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

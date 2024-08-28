@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.food-munch-logo {
+    width: 80px;
+    height: 70px;
+}
+
+#navItem1 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem2 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem3 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem4 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+.banner-section-bg-container {
+    background-image: url("https://images.creativemarket.com/0.1.0/ps/3707410/1820/1820/m1/fpnw/wm1/qyk6iilty9ghxl4bgw6uin1dg0s2ttd79aujhbm5o4t2kpsopotvobwez5n8ewlw-.jpg?1512760565&s=f73565d9ae2595d8ba4749590c4f2e36");
+    height: 100vh;
+    background-size: cover;
+}
+
+.banner-heading {
+    color: white;
+    font-family: bree serif;
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.banner-caption {
+    color: #f5f7fa;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.custom-button {
+    color: black;
+    background-color: #e6f2ff;
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.custom-outline-button {
+    color: white;
+    background-color: transparent;
+    width: 130px;
+    height: 45px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 8px;
+}
+
+.wcu-section-bg {
+    background-color: #f9fbfe;
+}
+
+.wcu-heading {
+    font-family: bree serif;
+    font-size: 40px;
+    font-weight: 500;
+    color: #183b56;
+}
+
+.wcu-description {
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: 500;
+    color: #183b56;
+}
+
+.wcu-card {
+    background-color: white;
+    border-radius: 10px;
+    border-color: grey;
+    border-style: solid;
+    border-width: 0.5px;
+}
+
+.wcu-card-img {
+    height: 80px;
+    width: 80px;
+}
+
+.wcu-card-title {
+    font-family: roboto;
+    font-size: 30px;
+    color: #323f4b;
+}
+
+.wcu-card-descr {
+    font-family: roboto;
+    font-size: 16px;
+    color: #323f4b;
+}
+
+.offers {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.menu-section-bg {
+    background-color: white;
+}
+
+.explore-menu-heading {
+    font-family: bree serif;
+    font-size: 30px;
+    color: #183b56;
+    font-weight: 400px;
+}
+
+.menu-card-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.manu-card-heading {
+    font-family: Roboto;
+    font-size: 18px;
+
+}
+
+.manu-card-link {
+    color: #d0b200;
+    font-family: Roboto;
+    font-weight: 400;
+}
+
+.menu-card {
+    border-radius: 15px;
+}
+
+.delivery-and-payment-section {
+    background-color: white;
+}
+
+.delivery-and-payment-section-img {
+    width: 270px;
+}
+
+.delivery-and-payment-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.delivery-and-payment-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.payment-card-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 28px;
+}
+
+.custom-button {
+    color: white;
+    background-color: #d0b200;
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.thanking-customers-section {
+    background-image: radial-gradient(#fff8db, #fae38c);
+}
+
+.thanking-customers-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.thanking-customers-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.thanking-customers-section-img {
+    width: 270px;
+    margin-bottom: 20px;
+}
+
+.custom-button {
+    color: white;
+    background-image: linear-gradient(#d0b200, #a58d00);
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.section-thanking-modal-title {
+    color: #d0b200;
+    font-size: 20px;
+    font-family: Bree serif;
+}
+
+.follow-us-section {
+    background-color: white;
+}
+
+.follow-us-section-heading {
+    text-align: center;
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.follow-us-icon-container {
+    background-color: #faf7e8;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin: 15px;
+    padding-top: 22px;
+    padding-bottom: 14px;
+    padding-right: 16px;
+    padding-left: 22px;
+}
+
+.icon {
+    color: #d0b200;
+    font-size: 35px;
+}
+
+.footer-section {
+    background-color: #0d2436;
+}
+
+.footer-section-mail-id {
+    color: #959ead;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.footer-section-address {
+    color: #959ead;
+    font-family: "Roboto";
+    font-size: 14px;
+}
